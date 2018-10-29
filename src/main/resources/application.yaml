@@ -1,0 +1,14 @@
+
+# Metrics related configurations
+management:
+  endpoints:
+    # Endpoint Web Configuration
+    web:
+      exposure:
+        include: "*"
+
+
+#management.endpoint.prometheus.enabled=true
+
+#management.metrics.export.prometheus.enabled=true
+#management.metrics.use-global-registry=true
